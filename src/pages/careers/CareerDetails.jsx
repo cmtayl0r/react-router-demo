@@ -1,7 +1,17 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigation } from "react-router-dom";
+import LoadingSpinner from "../../ui/LoadingSpinner";
 
 export default function CareerDetails() {
+  // Use the useLoaderData hook to get the data from the loader
   const data = useLoaderData();
+  // Use the useNavigation hook to get the navigation state
+  const navigation = useNavigation();
+
+  // If the data is still loading, show a spinner
+  const isLoading = navigation.state === "loading";
+  if (isLoading) {
+    return <LoadingSpinner />;
+  }
 
   return (
     <div className="career-details">

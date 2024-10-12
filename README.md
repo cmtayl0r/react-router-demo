@@ -19,9 +19,10 @@ A demo website to play with React Router (v6+) features.
 - Using `useParam` to navigate to and display pages based on a id given by a fake JSON server
 - Using `useLocation` to create breadcrumbs and indicate status within routes
 - Using the `Form` and associated action function to deal with form submissions
+- Incorporate `lazy` and `suspense` to render loading states whilst pages render
 
 ## Todo list
 
-- [ ] TBD
+- [ ] [Using defer][https://reactrouter.com/en/main/start/overview#skeleton-ui-with-suspense] to deal with suspense and skeleton/loading states
 
 [1]: https://reactrouter.com/en/main
