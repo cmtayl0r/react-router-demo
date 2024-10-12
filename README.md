@@ -23,6 +23,7 @@ A demo website to play with React Router (v6+) features.
 
 ## Todo list
 
-- [ ] [Using defer][https://reactrouter.com/en/main/start/overview#skeleton-ui-with-suspense] to deal with suspense and skeleton/loading states
+- [ ] [Using defer][2] to deal with suspense and skeleton/loading states
 
 [1]: https://reactrouter.com/en/main
+[2]: https://reactrouter.com/en/main/start/overview#skeleton-ui-with-suspense
